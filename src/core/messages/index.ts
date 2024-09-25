@@ -1,0 +1,21 @@
+import { userErrors } from 'src/core/messages/user_error.messages';
+import { userSuccess } from './user_success.messages';
+import { authSuccess } from './auth_success.messages';
+import { authErrors } from './auth_error.messages';
+import { serverSuccess } from './server_success.messages';
+import { serverError } from './server_error.messages';
+import { tokenErrors } from './token_error.messages';
+import { questionError } from './question_error.messages';
+import { BookShelfError } from './bookshelf_error.messaes';
+import { BookShelfSuccess } from './bookshelf_success.messages';
+
+export const USER_ERROR = userErrors;
+export const USER_SUCCESS = userSuccess;
+export const AUTH_SUCCESS = authSuccess;
+export const AUTH_ERROR = authErrors;
+export const SERVER_SUCCESS = serverSuccess;
+export const SERVER_ERROR = serverError;
+export const TOKEN_ERROR = tokenErrors;
+export const QUESTION_ERROR = questionError;
+export const BOOKSHELF_ERROR = BookShelfError;
+export const BOOKSHELF_SUCCESS = BookShelfSuccess;
